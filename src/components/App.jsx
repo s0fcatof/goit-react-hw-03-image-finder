@@ -18,6 +18,7 @@ export const App = () => {
     } else if (page > 1) {
       setRenderedImageList(prevList => [...prevList, ...imageList]);
     }
+    // eslint-disable-next-line
   }, [imageList]);
 
   useEffect(() => {
